@@ -1,3 +1,13 @@
+# fork
+this is a fork of https://github.com/Akryum/vue-virtual-scroller:
+* uses @hokify/vue-observe-visibility to fix observer error
+* also includes library updates
+
+To install this fork, use:
+```
+npm install --save @hokify/vue-virtual-scroller
+```
+
 # vue-virtual-scroller
 
 [![npm](https://img.shields.io/npm/v/vue-virtual-scroller.svg) ![npm](https://img.shields.io/npm/dm/vue-virtual-scroller.svg)](https://www.npmjs.com/package/vue-virtual-scroller)
