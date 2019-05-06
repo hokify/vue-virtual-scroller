@@ -55,7 +55,7 @@
 
 <script>
 import { ResizeObserver } from 'vue-resize'
-import { ObserveVisibility } from 'vue-observe-visibility'
+import { ObserveVisibility } from '@hokify/vue-observe-visibility'
 import ScrollParent from 'scrollparent'
 import config from '../config'
 import { props, simpleArray } from './common'
