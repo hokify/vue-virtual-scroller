@@ -1,7 +1,7 @@
 {
   "name": "@hokify/vue-virtual-scroller",
   "description": "Smooth scrolling for any amount of data",
-  "version": "1.0.0-rc.5",
+  "version": "1.0.0-rc.6",
   "publishConfig": {
     "access": "public"
   },

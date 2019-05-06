@@ -562,12 +562,7 @@ export default {
 }
 </script>
 
-<style lang="scss">
-  .b {
-    color: green;
-  }
-</style>
-<!--style>
+<style>
 .vue-recycle-scroller {
   position: relative;
 }
@@ -617,4 +612,4 @@ export default {
 .vue-recycle-scroller.ready.direction-horizontal .vue-recycle-scroller__item-view {
   height: 100%;
 }
-</style-->
+</style>
