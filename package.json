@@ -1,7 +1,7 @@
 {
   "name": "@hokify/vue-virtual-scroller",
   "description": "Smooth scrolling for any amount of data",
-  "version": "1.0.0-rc.8",
+  "version": "1.0.0-rc.9",
   "publishConfig": {
     "access": "public"
   },
@@ -45,7 +45,9 @@
   },
   "devDependencies": {
     "@babel/core": "^7.4.4",
+    "@babel/runtime-corejs3": "^7.4.4",
     "@babel/plugin-external-helpers": "^7.2.0",
+    "@babel/plugin-transform-runtime": "^7.4.4",
     "@babel/preset-env": "^7.4.4",
     "babel-eslint": "^10.0.1",
     "clean-css": "^4.2.1",
