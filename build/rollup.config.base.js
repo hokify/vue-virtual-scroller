@@ -1,4 +1,4 @@
-import buble from 'rollup-plugin-buble'
+import babel from 'rollup-plugin-babel'
 import resolve from 'rollup-plugin-node-resolve'
 import vue from 'rollup-plugin-vue'
 import cjs from 'rollup-plugin-commonjs'
@@ -17,7 +17,7 @@ export default {
       mainFields: ['module', 'jsnext', 'browser'],
     }),
     cjs(),
-    // eslint(),
+    //    eslint(),
     css({ output: (style) => {
       const file = require.resolve('vue-resize/dist/vue-resize.css')
       style += fs.readFileSync(file, { encoding: 'utf8' })
@@ -30,8 +30,8 @@ export default {
         isProduction: true,
       },
     }),
-    buble({
-      objectAssign: 'Object.assign',
+    babel({
+      extensions: ['.js', '.jsx', '.es6', '.es', '.mjs', '.vue'],
     }),
     replace({
       VERSION: JSON.stringify(config.version),
