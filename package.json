@@ -1,7 +1,7 @@
 {
   "name": "@hokify/vue-virtual-scroller",
   "description": "Smooth scrolling for any amount of data",
-  "version": "1.0.0-rc.9",
+  "version": "1.0.0-rc.10",
   "publishConfig": {
     "access": "public"
   },
@@ -19,7 +19,7 @@
   "module": "dist/vue-virtual-scroller.esm.js",
   "unpkg": "dist/vue-virtual-scroller.min.js",
   "scripts": {
-    "build": "npm run build:browser && npm run build:es && npm run build:umd",
+    "build": "npm run lint && npm run build:browser && npm run build:es && npm run build:umd",
     "build:browser": "rollup --config build/rollup.config.browser.js",
     "build:es": "rollup --config build/rollup.config.es.js",
     "build:umd": "rollup --config build/rollup.config.umd.js",
@@ -70,7 +70,6 @@
     "rollup-plugin-replace": "^2.2.0",
     "rollup-plugin-uglify": "^6.0.2",
     "rollup-plugin-vue": "^5.0.0",
-    "uglify-es": "^3.3.9",
     "vue": "^2.5.17",
     "vue-template-compiler": "2.6.10"
   },

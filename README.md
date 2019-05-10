@@ -3,6 +3,8 @@ this is a fork of https://github.com/Akryum/vue-virtual-scroller:
 * uses @hokify/vue-observe-visibility to fix observer error
 * also includes library updates
 
+* does transpile to es5 (via babel), but does not polyfill (e.g. Map). use core-js to polyfill this if needed (e.g. core-js/modules/es.map) 
+
 To install this fork, use:
 ```
 npm install --save @hokify/vue-virtual-scroller
